@@ -203,6 +203,20 @@ const [analyzingFaces, setAnalyzingFaces] = useState(false);
 >
   {analyzingFaces ? 'Discovering People…' : 'Find People & Group Photos'}
 </button>
+
+{faceClusters.size > 0 && (
+  <PeopleGroups 
+    faceClusters={faceClusters}
+    files={files}
+    onCreatePeopleFolders={(clusters) => {
+      // TODO: convert clusters → high-priority OrganizationRule[]
+      // e.g. { pattern: new RegExp(`...`), folder: `People/${cluster.label}`, priority: 25 }
+      // then setSelectedRules([...newRules, ...selectedRules])
+      console.log('Creating folders for:', clusters);
+    }}
+  />
+)}
+        
         {viewMode === 'preview' && (
           <div className="space-y-8">
             <div className="flex justify-between items-center">
@@ -280,4 +294,5 @@ const [analyzingFaces, setAnalyzingFaces] = useState(false);
 
 
 export default App;
+
 
