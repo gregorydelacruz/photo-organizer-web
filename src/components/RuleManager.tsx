@@ -1,8 +1,8 @@
 // src/components/RuleManager.tsx
 import React, { useState } from 'react';
-import { Button } from '@/components/ui/button';     // assuming shadcn/ui or similar
-import { Input } from '@/components/ui/input';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { Button } from 'components/ui/button';
+import { Input } from 'components/ui/input';
+import { Card, CardContent, CardHeader, CardTitle } from 'components/ui/card';
 import { Trash2, Edit, Plus } from 'lucide-react';   // assuming lucide-react icons
 
 // Define a simple Rule type (adjust to match your actual data structure)
@@ -174,3 +174,4 @@ export default function RuleManager() {
     </div>
   );
 }
+
