@@ -186,7 +186,23 @@ const [analyzingFaces, setAnalyzingFaces] = useState(false);
             <DropZone onFilesSelected={handleFilesSelected} />
           </div>
         )}
-
+<button
+  onClick={async () => {
+    setAnalyzingFaces(true);
+    try {
+      const clusters = await analyzeFacesInPhotos(files);
+      setFaceClusters(clusters);
+      // Later: auto-create folders like "People → Mom"
+    } catch (err) {
+      console.error(err);
+    }
+    setAnalyzingFaces(false);
+  }}
+  disabled={analyzingFaces || files.length === 0}
+  className="btn-primary"
+>
+  {analyzingFaces ? 'Discovering People…' : 'Find People & Group Photos'}
+</button>
         {viewMode === 'preview' && (
           <div className="space-y-8">
             <div className="flex justify-between items-center">
@@ -264,3 +280,4 @@ const [analyzingFaces, setAnalyzingFaces] = useState(false);
 
 
 export default App;
+
