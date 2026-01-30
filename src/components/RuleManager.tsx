@@ -75,7 +75,7 @@ function RuleManager({ rules, onRulesChange, onClose }: RuleManagerProps) {
   };
 
   const handleDelete = (ruleId: string) => {
-    if (confirm('Are you sure you want to delete this rule?')) {
+    if (window.confirm('Are you sure you want to delete this rule?')) {
       onRulesChange(rules.filter(r => r.id !== ruleId));
     }
   };
@@ -318,5 +318,6 @@ function RuleManager({ rules, onRulesChange, onClose }: RuleManagerProps) {
     </div>
   );
 }
+
 
 export default RuleManager;
