@@ -15,7 +15,7 @@
     "file-saver": "^2.0.5",
     "lucide-react": "^0.263.1",
     "date-fns": "^2.30.0",
-
+  "@radix-ui/react-slot": "^1.1.2",
   "class-variance-authority": "^0.7.1"   
     
   },
@@ -51,3 +51,4 @@
   }
 
 }
+
