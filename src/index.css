@@ -3,9 +3,7 @@
 @tailwind utilities;
 
 @layer base {
-  * {
-    @apply border-border;
-  }
+  * 
   body {
     @apply bg-gradient-to-br from-blue-50 to-indigo-100 font-sans antialiased;
   }
@@ -51,4 +49,5 @@
   .progress-fill {
     @apply h-full bg-primary-500 transition-all duration-300 ease-out;
   }
+
 }
