@@ -37,7 +37,9 @@ function App() {
     setFiles(prev => [...prev, ...photoFiles]);
     setViewMode('preview');
   }, []);
-
+const [faceClusters, setFaceClusters] = useState<Map<string, FaceCluster>>(new Map());
+const [analyzingFaces, setAnalyzingFaces] = useState(false);
+  
   const handleRemoveFile = useCallback((fileId: string) => {
     setFiles(prev => prev.filter(f => f.id !== fileId));
   }, []);
@@ -259,5 +261,6 @@ function App() {
     </div>
   );
 }
+
 
 export default App;
