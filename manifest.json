@@ -1,0 +1,21 @@
+{
+  "short_name": "Photo Organizer",
+  "name": "Photo Organizer - Smart Photo Organization Tool",
+  "icons": [
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkyIiBoZWlnaHQ9IjE5MiIgdmlld0JveD0iMCAwIDE5MiAxOTIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIxOTIiIGhlaWdodD0iMTkyIiByeD0iNDAiIGZpbGw9IiMzOTg0RjYiLz4KPHN5bmFwIGQ9Ik0zNiA2MEMzNiA1My4zNzI2IDQxLjM3MjYgNDggNDggNDhIMTQ0QzE1MC42MjcgNDggMTU2IDUzLjM3MjYgMTU2IDYwVjEwMEMxNTYgMTA2LjYyNyAxNTAuNjI3IDExMiAxNDQgMTEySDQ4QzQxLjM3MjYgMTEyIDM2IDEwNi42MjcgMzYgMTAwVjYwWiIgZmlsbD0id2hpdGUiLz4KPGNpcmNsZSBjeD0iNTYiIGN5PSI3MiIgcj0iOCIgZmlsbD0iIzM5ODRGNiIvPgo8c3luYXAgZD0iTTc2IDk2TDEwNCA3MkwxMzIgOTZINzZaIiBmaWxsPSIjMzk4NEY2Ii8+Cjwvc3ZnPgo=",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDUxMiA1MTIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiByeD0iMTA0IiBmaWxsPSIjMzk4NEY2Ii8+CjxzeW5hcCBkPSJNOTYgMTYwQzk2IDE0Mi4zMjcgMTEwLjMyNyAxMjggMTI4IDEyOEgzODRDNDAxLjY3MyAxMjggNDE2IDE0Mi4zMjcgNDE2IDE2MFYyNjRDNDE2IDI4MS42NzMgNDAxLjY3MyAyOTYgMzg0IDI5NkgxMjhDMTEwLjMyNyAyOTYgOTYgMjgxLjY3MyA5NiAyNjRWMTYwWiIgZmlsbD0id2hpdGUiLz4KPGNpcmNsZSBjeD0iMTQ4IiBjeT0iMTkyIiByPSIyMCIgZmlsbD0iIzM5ODRGNiIvPgo8c3luYXAgZD0iTTIwNCAyNTJMMjcyIDE5MkwzNDAgMjUySDE5MloiIGZpbGw9IiMzOTg0RjYiLz4KPC9zdmc+Cg==",
+      "sizes": "512x512",
+      "type": "image/svg+xml"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#3984F6",
+  "background_color": "#ffffff",
+  "categories": ["productivity", "utilities", "photo"]
+}
